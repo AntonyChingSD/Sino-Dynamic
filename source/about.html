@@ -7,30 +7,44 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/normalize.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+
+<!-- animsition.css -->
+<link rel="stylesheet" href="dist/css/animsition.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- animsition.js -->
+<script src="dist/js/animsition.min.js"></script>
+
+
 <style></style>
 </head>
 
 <body>
-
+    
     <header>
             <div class="company_name_slogan">
-                <p class="margin_title_from_top">spaceo</p>
+                <p class="margin_title_from_top">space</p>
                 <p class="main_title">SINO DYNAMIC</p>
                 <p class="sub_title">Enterprise Mobile Payment and O2O Solutions Provider</p>
             </div>
 
             <nav>
                 <ul>
-                    <li><a href="index.html"><p>Portfolio</p></a></li>
-                    <li><a href="about.html"><p class="active">About</p></a></li>
-                    <li><a href="contact.html"><p>Contact</p></a></li>
+                        
+                                <div class="animsition">
+                        <li><a href="index.html" class="animsition-link"><p>Portfolio</p></a></li>
+                 
+                        <li><a href="about.html"><p class="active">About</p></a></li>
+                      
+                        <li><a href="contact.html" class="animsition-link"><p>Contact</p></a></li>
+                        </div>
                 </ul>
             </nav>
             
     </header>
 
-
-    <main>
+    <div class="animsition">
+    <main class=animsition-link>
             <div class="logo_picture">
                 <img class="logo_size" src="http://via.placeholder.com/512x512">
             </div>
@@ -62,6 +76,10 @@
             <p> &copy; 2016 Sino Dynamic.</p>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
+   
+    </div>
 
 </body>
 </html>
